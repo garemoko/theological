@@ -1,0 +1,89 @@
+<!doctype html>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<html>
+	<head>
+
+		<meta name="viewport" content="width=600, initial-scale=1">
+		<title>Theological Thoughts</title>
+		<link rel="stylesheet" href="base.css" type="text/css" />
+		<link rel="icon" type="image/png" href="http://www.tincanapi.co.uk/logo.png">
+		<script src="js-lib/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#data').children('div').each(function() {
+			      $('#theBegining').after(
+			      	'<img src="logo.png" width="75px" class="logo garemoko"><div class="section">' + nl2br($(this).html()) + '</div>'
+			      );
+			   }).remove();
+
+			});
+			
+			function nl2br (str, is_xhtml) {   
+			var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';    
+			return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1'+ breakTag +'$2');
+			}
+
+		</script>
+
+	</head>
+	<body >
+
+		<h1><a href="http://www.tincanapi.co.uk">Theological thoughts</a></h1>
+		<p>
+			From Andrew Downes
+		</p>
+		<img src="logo.png" width="75px" class="logo garemoko">
+
+		
+		<div class="welcome" id ="theBegining">
+			<h2>Welcome</h2>
+			<p>
+				Oldest posts are at <a href="#theEnd">the bottom</a>, newest posts are at the top. 
+			</p>
+		</div>
+		
+		<div id="data">
+			<div>
+				Interesting reading John 2 (the wedding at Cana) in the context of Genesis 1. The clue is the third day - the day when God created water in Genesis (and the obvious references to Genesis 1 in John 1). Jesus interaction with the servants mirrors God's commanding creation into being. Jesus said let the pots be filled and they were filled, bring the wine to the master of the feast, and they brought it to the master of the feast. When Jesus talks about his hour has not yet come, he means the time when he will bring about a new creation. This new creation will be better than the first creation - the bridegroom has saved the best til last. 
+				
+				What's the significance of the size and number of the water pots though? I'm stumped on that one. Six could be a reference to the six days of creation I guess but I'm not sure. Something to do with the temple? Or simply just a ridiculously large amount of wine implying a major party?
+			</div>
+			<div>
+				Read numbers 21:9 in the context of John 3 and genesis 2-3. If sin has bitten us, we look to the cross and are healed.
+					
+				Generally though the message in John 3 about who Jesus is and about baptism is pretty clear and on the surface. No knowledge of historical context required to understand that Jesus has come from heaven and that we need to be born again of water and the spirit by baptism!
+			</div>
+			<div>
+				John 4 is an interesting one. If you re-set the scene in a bar rather than at a well and have Jesus buying the Samaritan woman a drink rather than asking her to get him one then you'll understand the cultural context a lot better and why everyone is so shocked at Jesus' actions. More on John 4 to follow...
+			</div>	
+			<div>
+				Following on from my update this morning, here's the literary context on John 4. Every time in the old testament, when a man meets a woman at some kind of water source, here's what happens:
+
+				Man asks woman to give him a drink
+				Man helps woman with something
+				Woman invites man to come and meet her father
+				Man and woman get married. 
+				
+				It's the same as in films where a man and woman meet in a bar and the man buys the woman a drink. There's some sort of romance going on. 
+				
+				So when we read John 4, right up until verse 10 or even later, we're supposed to think of this as the story of how Jesus got married. And in a way it is...
+			</div>
+			<div>
+				And here's the historical context about the Samaritan people. 
+
+				Have you ever wondered who the Samaritan people are? They live in the middle of Israel, but they aren't Isrealites. How and when did they get there? Remember in the old testament when the king of Assyria came and took the Isrealites captive and scattered them amongst the nations? Well, that's exactly what happened to the Samaritans except they were scattered from five different nations to, some of whom ended up in Samaria and mingled together to form the Samaritans. These five different nations brought with them five different gods but switched to worshipping YHWH not long after they arrived. The trouble is, they didn't really know what they were doing; they didn't have the law, levites or any of that stuff. They even set up their own temple on a mountain in Samaria when the only temple was supposed to be in Jerusalem.
+				
+				In summary, the Samaritans are a people who have had five gods and the God they are now with isn't really their God. Sound familiar?
+			</div>
+			
+			<!-- Simply add divs above with plain text inside and the javascript will format them and reverse the order. -->
+		</div>
+
+		<div id ="theEnd" class="spacer">
+			<p>
+				Thanks for visiting.
+			</p>
+		</div>
+
+	</body>
+</html>
